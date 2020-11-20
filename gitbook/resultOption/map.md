@@ -15,7 +15,7 @@ Function Signature:
 Given the following functions:
 
 ```fsharp
-getTweet : PostId -> Result<Tweet option, _>
+getTweetByPostId : PostId -> Result<Tweet option, _>
 remainingCharacters : Tweet -> int
 ```
 
